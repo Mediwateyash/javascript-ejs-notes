@@ -4,12 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>instagram</title>
-    <style>
-        img{
-            width: 100px;
-            height: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <h2>This is page of @ <%= data.name  %> </h2>
@@ -26,5 +21,7 @@
     <p>likes : <%= post.likes %> &nbsp;
     comments : <%= post.comments %></p>
     <% } %>
+
+    <%- include('includes/footer.ejs') %>
 </body>
 </html>

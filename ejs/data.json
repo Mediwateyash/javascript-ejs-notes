@@ -42,5 +42,27 @@
           "comments": 6
         }
       ]
+    },
+    "yash": {
+      "name": "Yash",
+      "followers": 2500,
+      "following": 5,
+      "posts": [
+        {
+          "image": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "likes": 200,
+          "comments": 17
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1444720895098-cbd6b640c909?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "likes": 312,
+          "comments": 19
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1505682614136-0a12f9f7beea?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "likes": 1065,
+          "comments": 200
+        }
+      ]
     }
   }

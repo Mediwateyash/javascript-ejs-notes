@@ -3,8 +3,9 @@ const express = require("express");
 const app = express(); // express app
 const path = require("path"); // used to get the path
 
-const port = 3000;
 
+const port = 3000;
+app.use(express.static(path.join(__dirname,"public")));
     app.set("view engine","ejs");   
     app.set("views",path.join(__dirname,"views")); // views folder //this is use 
 //is use to set the path of the views folder
